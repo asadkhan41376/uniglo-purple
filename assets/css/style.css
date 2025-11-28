@@ -273,7 +273,7 @@ li.sub-menu-style-two:hover ul.sub-menu-two {
    <!--Uniglo Hero Area Css-->
 ==================================---*/
 .hero-area {
-  background: url(../images/uniglo-images/banners/banner_3.jpg);
+  background: url(../images/uniglo-images/banners/Banner-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -283,7 +283,7 @@ li.sub-menu-style-two:hover ul.sub-menu-two {
 }
 
 .hero-area.style-two {
-    background: url(../images/uniglo-images/banners/banner_4.jpg);
+    background: url(../images/uniglo-images/banners/Banner-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10791,4 +10791,11 @@ background-image: radial-gradient(at center center, #2C0530 0%, #060A0F 100%);
 
 .single-about-thumb img{
   width: 90%;
+}
+
+
+.hero_content1{
+  min-height: 300px;
+width: 100%;
+  /* background-color: rebeccapurple; */
 }
