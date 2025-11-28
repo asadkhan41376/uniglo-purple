@@ -53,7 +53,8 @@ body{
 
 .header-menu {
   text-align: center;
-  background-color: #2C0530;
+  background-image: radial-gradient(at center center, #2C0530 0%, #060A0F 100%);
+
   border: 1px solid rgba(255, 255, 255, 0.549);
   border-left: 0;
   border-right: 0;
@@ -9986,7 +9987,8 @@ span.flaticon-multiply i {
 /* 🔹 CENTER LOGO                             */
 /* ----------------------------------------- */
 .header-main-logo {
-  background-color: #2C0530;
+  background-image: radial-gradient(at center center, #2C0530 0%, #060A0F 100%);
+
   text-align: center;
   padding: 18px 0;
 }
@@ -10014,6 +10016,7 @@ span.flaticon-multiply i {
   /* Hide desktop menu on mobile — your mobile menu already exists */
   .header-menu {
     display: none;
+    
   }
 }
 
