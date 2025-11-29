@@ -4071,11 +4071,11 @@ display: none;
 
 .home-three .footer-desc p {
   opacity: 0.7;
-  color: #acacac;
+  color: #fff;
 }
 
 .home-three .footer-widget-social-icon {
-  margin-top: 44px;
+  margin-top: 10px;
 }
 
 .home-three .footer-widget-social-icon ul li {
@@ -4088,7 +4088,7 @@ display: none;
 
 .home-three .footer-widget-social-icon ul li i {
   display: inline-block;
-  color: #ffff;
+  color: #BB923A;
   font-size: 15px;
   background: rgba(247, 249, 251, 0.1);
   width: 35px;
@@ -4129,7 +4129,7 @@ display: none;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-size: 28px;
-  color: #f7f9fb;
+  color: #BB923A;
   font-weight: 700;
   font-family: "Cormorant Garamond";
 }
@@ -4140,10 +4140,10 @@ display: none;
 
 .home-three .footer-widget-menu ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 41px;
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Lora";
   position: relative;
 }
@@ -4185,7 +4185,7 @@ display: none;
 
 .home-three .footer-widget-contact-icon i {
   display: inline-block;
-  color: #be9965;
+  color: #BB923A;
   margin-right: 7px;
 }
 
