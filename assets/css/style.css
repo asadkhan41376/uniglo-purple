@@ -10799,3 +10799,7 @@ background-image: radial-gradient(at center center, #2C0530 0%, #060A0F 100%);
 width: 100%;
   /* background-color: rebeccapurple; */
 }
+
+.brand_section{
+  background-color: white;
+}
