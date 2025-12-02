@@ -5685,7 +5685,7 @@ background-image: radial-gradient(at center center, #2C0530 0%, #060A0F 100%);
 <!-- ========================================-->*/
 .home-five.blog-area {
   background-color: #ededed;
-  padding: 110px 0 95px;
+padding-bottom: 110px;
 }
 
 .home-five.blog-area .section-title.center h1 {
@@ -7244,11 +7244,12 @@ border-radius: 10px;
 <!--Start Breadcumb Area-->
 <!-- ========================================-->*/
 .breadcumb-area {
-  background: url("/assets/images/uniglo-images/banners/banner_2.jpg");
+  min-height: 280px;
+  background: url("/assets/images/uniglo-images/banners/large-doamond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 260px 0 170px;
+  /* padding: 260px 0 170px; */
   text-align: center;
 }
 
@@ -10189,7 +10190,7 @@ background-position: center left calc(50% - 190px);
 
 
 .breadcum-title h4{
-  text-align: right;
+  text-align: center;
   color: white;
  
 }

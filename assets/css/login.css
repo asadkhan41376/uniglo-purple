@@ -1,0 +1,136 @@
+/* COMMON CONTAINER (Login + Register) */
+.main-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-image: url("/assets/images/uniglo-images/banners/auth.jpg");
+  background-size: cover;
+  background-position: center center
+}
+
+/* LEFT + RIGHT IMAGE SECTION */
+.side-box {
+  width: 45%;
+  text-align: center;
+  animation: fadeSide 1.3s ease;
+}
+
+.diamond-img {
+  width: 320px;
+  animation: float 4s infinite ease-in-out;
+}
+
+.tag-title {
+  margin-top: 20px;
+  font-size: 34px;
+  color: #BB923A;
+  font-family: serif;
+}
+
+.tag-sub {
+  color: #EFEFEF;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* CARD (Common for Login + Register) */
+.card-box {
+  width: 500px;
+  padding: 30px;
+  border-radius: 22px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.25);
+  backdrop-filter: blur(16px);
+  animation: fadeUp 1.2s ease;
+  box-shadow: 0 0 40px rgba(0,0,0,0.35);
+}
+
+/* CARD TITLE */
+.title {
+  color: #BB923A;
+  text-align: center;
+  font-size: 32px;
+  font-family: serif;
+  margin-bottom: 25px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 16px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  border-radius: 12px;
+  margin: 14px 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+input::placeholder { color: gray; }
+input:focus {
+  outline: none;
+  background: rgba(255,255,255,0.25);
+  transform: scale(1.02);
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 12px;
+  background: #BB923A;
+  color: #2C0530;
+  font-weight: 800;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  color: #BB923A;
+  background: #2C0530;
+}
+
+/* SWITCH LINK */
+.switch {
+  text-align: center;
+  margin-top: 15px;
+  color: #EFEFEF;
+}
+.switch a { color: #BB923A; }
+
+/* BACK BUTTON */
+.back-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #BB923A;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+.back-home:hover {
+  color: #E5C16A;
+  transform: translateX(-4px);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {opacity: 0; transform: translateY(50px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+@keyframes fadeSide {
+  from {opacity: 0; transform: translateX(-50px);}
+  to {opacity: 1; transform: translateX(0);}
+}
+@keyframes float {
+  0% {transform: translateY(0)}
+  50% {transform: translateY(-18px)}
+  100% {transform: translateY(0)}
+}
