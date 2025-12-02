@@ -7244,7 +7244,7 @@ border-radius: 10px;
 <!--Start Breadcumb Area-->
 <!-- ========================================-->*/
 .breadcumb-area {
-  min-height: 280px;
+  min-height: 350px;
   background: url("/assets/images/uniglo-images/banners/large-doamond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
